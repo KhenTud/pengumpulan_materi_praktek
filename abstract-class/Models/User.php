@@ -30,6 +30,8 @@ class User extends AbstractUser {
           $stmt->execute();
     }
 
+// Jo
+
     public function setData($id): void
     {
         $stmt = $this->pdo->prepare("SELECT * FROM users WHERE id = :id");

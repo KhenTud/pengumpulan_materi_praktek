@@ -10,6 +10,8 @@
     <h1>Belajar Constructor</h1>
     <?php
         // melakukan import class User
+
+        
         require 'User.php';
     ?>
     <table>
